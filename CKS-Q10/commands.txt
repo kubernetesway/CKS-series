@@ -1,0 +1,8 @@
+
+Documentation url: https://kubernetes.io/docs/tasks/run-application/access-api-from-pod/
+
+k config  use-context cks-trainee
+
+
+curl --cacert ${CACERT} --header "Authorization: Bearer ${TOKEN}" -X G
+ET ${APISERVER}/api/v1/namespaces/cks-restrictive/secrets/secret-three
