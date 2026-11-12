@@ -37,7 +37,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod-three
-  namespace: cks-restrictive
+  namespace: cks-limited
 spec:
   serviceAccountName: secret-reader
   automountServiceAccountToken: true
