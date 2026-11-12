@@ -46,11 +46,11 @@ kubectl create namespace "$NAMESPACE"  --dry-run=client -o yaml | kubectl apply 
 # 4. Create three secrets
 echo "[2/10] Creating three secrets..."
 
-kubectl create secret generic secret-one     --from-literal=username=admin-one     --from-literal=password='Password@111'     -n "$NAMESPACE"     --dry-run=client -o yaml | kubectl apply -f -
+kubectl create secret generic secret-one     --from-literal=username=admin-one     --from-literal=password='Absdjdh##@111'     -n "$NAMESPACE"     --dry-run=client -o yaml | kubectl apply -f -
 
-kubectl create secret generic secret-two     --from-literal=username=admin-two     --from-literal=password='Password@222'  -n "$NAMESPACE"     --dry-run=client -o yaml | kubectl apply -f -
+kubectl create secret generic secret-two     --from-literal=username=admin-two     --from-literal=password='qheiRGa@222'  -n "$NAMESPACE"     --dry-run=client -o yaml | kubectl apply -f -
 
-kubectl create secret generic secret-three     --from-literal=username=admin-three     --from-literal=password='Password@333'     -n "$NAMESPACE"     --dry-run=client -o yaml | kubectl apply -f -
+kubectl create secret generic secret-three     --from-literal=username=admin-three     --from-literal=password='asbndpor@333'     -n "$NAMESPACE"     --dry-run=client -o yaml | kubectl apply -f -
 
 # 5. Create ServiceAccount and apply RBAC
 echo "[3/10] Creating ServiceAccount..."
