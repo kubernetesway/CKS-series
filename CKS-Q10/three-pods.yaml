@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod-one
-  namespace: cks-restrictive
+  namespace: cks-limited
 spec:
   containers:
   - name: app
@@ -22,7 +22,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod-two
-  namespace: cks-restrictive
+  namespace: cks-limited
 spec:
   containers:
   - name: app

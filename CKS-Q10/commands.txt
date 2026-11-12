@@ -5,4 +5,4 @@ k config  use-context cks-trainee
 
 
 curl --cacert ${CACERT} --header "Authorization: Bearer ${TOKEN}" -X G
-ET ${APISERVER}/api/v1/namespaces/cks-restrictive/secrets/secret-three
+ET ${APISERVER}/api/v1/namespaces/cks-limited/secrets/secret-three

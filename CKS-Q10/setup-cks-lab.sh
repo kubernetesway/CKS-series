@@ -2,13 +2,13 @@
 
 # =====================================================
 # CKS LAB AUTOMATED SETUP
-# Namespace: cks-restrictive
+# Namespace: cks-limited
 # User: cks-trainee
 # =====================================================
 
 set -euo pipefail
 
-NAMESPACE="cks-restrictive"
+NAMESPACE="cks-limited"
 TRAINEE="cks-trainee"
 SA_NAME="secret-reader"
 LAB_DIR="$(pwd)"
